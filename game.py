@@ -5,7 +5,7 @@ import random
 
 class player():
 	def __init__(self):
-		self.name='Player1'
+		self.name='Player_1'
 		self.life=100
 		self.xpos=4
 		self.ypos=4
@@ -52,7 +52,7 @@ class environment():
 				self.playing()
 				self.endscreen()
 			else:
-				self.screen.addstr(15,3,"Invalid Option")
+				self.screen.addstr(15,3,"Invalid Option Entered")
 					
 	def playing(self):
 		self.numenemies=0
